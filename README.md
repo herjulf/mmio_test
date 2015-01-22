@@ -1,10 +1,10 @@
-mmdio_test a simple NIC latency tool
-====================================
+mmdio_test -- A simple NIC latency tool
+=======================================
 
 Abstract
 --------
-This is code to measure latency from various NIC's. Of course buses and
-other things are included.
+This is code to measure latency from various NIC's. It maps chip registers
+and reads latency. Of course bus latency atc are included.
 
 History
 -------
@@ -36,5 +36,6 @@ Open-Source via GPL. See code.
 Authors
 -------					
 Robert Olsson <robert@Radio-Sensors.COM>
-Harald Welte
+Harald Welte <Netfilter Team>
+
 
