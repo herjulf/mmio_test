@@ -1,5 +1,5 @@
-mmdio_test -- A simple NIC latency tool
-=======================================
+mmio_test -- A simple NIC latency tool
+======================================
 
 Abstract
 --------
