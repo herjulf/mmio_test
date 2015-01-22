@@ -25,8 +25,10 @@ register (E1000_IMS, 0x100) is also ~2100 cycles each.
      __asm__ __volatile__("rdtsc" : "=A" (val))
 
 
-  //#define rdtscll(low,high) \
-  //   __asm__ __volatile__("rdtsc" : "=a" (low), "=d" (high))
+/* 
+#define rdtscll(low,high) \
+   __asm__ __volatile__("rdtsc" : "=a" (low), "=d" (high))
+*/
 
 #else
 #define rdtscll(val) do { \
@@ -147,7 +149,7 @@ static struct network_device tg3_pci_ids = {
 
 /* core */
 
-static int test_backend(volatile void *x, unsigned long offset)
+static void test_backend(volatile void *x, unsigned long offset)
 {
 	int i;
 
