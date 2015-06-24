@@ -4,7 +4,7 @@ mmio_test -- A simple NIC latency tool
 Abstract
 --------
 This is code to measure latency from various NIC's. It maps chip registers
-and reads latency. Of course bus latency atc are included.
+and reads latency. Of course bus latency etc is included.
 
 History
 -------
